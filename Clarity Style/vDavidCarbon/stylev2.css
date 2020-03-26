@@ -71,7 +71,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
       --name: "DavidCarbon's\a   List! " !Important;
-	    --avatar: ur(https://i.imgur.com/oA7lbwS.png);
+      --avatar: url(https://i.imgur.com/oA7lbwS.png);
       --banner: url(https://i.imgur.com/m4MCHJA.jpg);
       --character: url(https://i-cdn.davidcarbon.dev/Profile%20Pictures/New%20Game/Umiko%20Ahagon/Umiko%20Ahagon%20-%20Centered%20v2.png);
       --pbg: #161616;
@@ -157,8 +157,8 @@
 
 :root {
 	/* Primary Customization */
-  --name: "DavidCarbon's\a   List! " !Important;
-	--avatar: ur(https://i.imgur.com/oA7lbwS.png);
+  	--name: "DavidCarbon's\a   List! " !Important;
+	--avatar: url(https://i.imgur.com/oA7lbwS.png);
 	--banner: url(https://i.imgur.com/m4MCHJA.jpg);
 	--character: url(https://i.imgur.com/bORR9Y2.png);
 	--background: none;
@@ -1991,7 +1991,7 @@ footer {
 }
 
 #copyright:after {
-	content: "\aList design by Valerio Lyndon.";
+	content: "\aMade with ❤ in the U.S.";
 	white-space: pre;
 }
 

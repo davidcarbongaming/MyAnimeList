@@ -1916,7 +1916,7 @@ footer {
 }
 
 #copyright:after {
-	content: "\aMade with ❤ in the U.S.";
+	content: "\aMade with ❤ by ValerioLyndon";
 	white-space: pre;
 }
 
@@ -2403,8 +2403,8 @@ div[style^="width: 300px;"] input:hover {
       --avatar: url(https://i.imgur.com/oA7lbwS.png);
       --banner: url(https://i.imgur.com/m4MCHJA.jpg);
       --character: url(https://i-cdn.davidcarbon.dev/Profile%20Pictures/New%20Game/Umiko%20Ahagon/Umiko%20Ahagon%20-%20Centered%20v2.png);
-      --pbg: #161616;
-      --bg: #212121;
+      --pbg: #121212;
+      --bg: #161616;
       --bg-dark: #444;
       --text: #ababab;
       --text-h: #416abe;

@@ -1,6 +1,6 @@
 /*==============================*\
   "Clarity" by Valerio Lyndon
-  R24.0
+  R25.0
 
 | == = == THEME CONTENTS == = == |
 
@@ -1801,6 +1801,7 @@ a, a:hover {
 .data.started, .data.finished, .data.days, .data.airing-started, .data.airing-finished {
 	position: relative;
 	
+	display: flex !important;
 	width: 100px;
 	height: 14px;
 	
@@ -1812,6 +1813,7 @@ a, a:hover {
 	line-height: 14px;
 	text-align: left !important;
 	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .data.started { top: -20px; }
@@ -1828,6 +1830,8 @@ a, a:hover {
 	
 	text-align: right;
 	color: var(--text-dim);
+	margin-right: 3px;
+	flex: 0 0 auto;
 }
 
 .data.started:before { content: "Start"; }
@@ -1841,7 +1845,18 @@ a, a:hover {
 .manga .data.airing-finished { margin-left: -107px; }
 .manga .data.airing-started:before, .manga .data.airing-finished:before { width: 36px; }
 
-
+.data.airing-started::after,
+.data.airing-finished::after,
+.data.started::after,
+.data.finished::after,
+.data.days::after {
+	content: "-";
+	display: block;
+	width: 63px;
+	flex: 0 0 auto;
+	color: var(--text-dim);
+	font-size: 14px;
+}
 
 /*------------------------------*\
   LIST @More-Info
